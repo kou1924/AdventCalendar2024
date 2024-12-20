@@ -12,4 +12,4 @@ file_path = "AdventCalendar2024.json"
 # ローカルにあるJSONファイルを読み込む
 animation = load_lottie(file_path)
 
-st_lottie(animation, speed = 1, width = 600, height = 400)
+st_lottie(animation, width = 600, height = 400)
