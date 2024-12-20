@@ -7,9 +7,9 @@ def load_lottie(file_path):
                 return json.load(f)
 
 # ローカルにあるlottieJSONファイルのパスを指定
-santa_file_path = "presentbox_open.json"
+file_path = "AdventCalendar2024.json"
 
 # ローカルにあるlottieファイルを読み込む
-santa_animation = load_lottie(santa_file_path)
+animation = load_lottie(file_path)
 
-st_lottie(santa_animation, speed = 1, width = 600, height = 400)
+st_lottie(animation, speed = 1, width = 600, height = 400)
