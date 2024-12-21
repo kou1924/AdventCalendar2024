@@ -7,7 +7,7 @@ def load_lottie(file_path):
                 return json.load(f)
 
 # ローカルにあるJSONファイルのパスを指定
-file_path = "AdventCalendar2024.json"
+file_path = "12_24.json"
 
 # ローカルにあるJSONファイルを読み込む
 animation = load_lottie(file_path)
